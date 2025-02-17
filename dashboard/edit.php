@@ -35,19 +35,17 @@ if (isset($_POST['update'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edit Data Siswa</title>
-  <link rel="stylesheet" href="../../asset/css/bootstrap.css">
-  <link rel="stylesheet" href="../../bootstrap/scss/_alert.scss">
+  <link rel="stylesheet" href="../asset/css/bootstrap.css">
 </head>
 <body>
   <div class="container mt-5">
     <div class="row">
-      <div class="col">
+      <div class="col-md-6 mx-auto">
         <div class="card">
           <div class="card-header">
             <h3>Edit Data</h3>
           </div>
           <div class="card-body">
-
           <form method="POST">
             <!-- ID harus dikirim melalui hidden input -->
             <input type="hidden" value="<?= htmlspecialchars($dt['id']) ?>" name="id">

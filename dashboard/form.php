@@ -29,12 +29,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../../asset/css/bootstrap.css">
+  <link rel="stylesheet" href="../asset/css/bootstrap.css">
 
   <body>
   <div class="container mt-5">
     <div class="row">
-      <div class="col">
+      <div class="col-md-6 mx-auto">
         <div class="card">
           <div class="card-header">
             <h3>Tambah Data</h3>

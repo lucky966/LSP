@@ -21,7 +21,7 @@ include 'koneksi.php';
   <marquee behavior="" direction=""><?= $_SESSION['name'] ?></marquee>
 
   <div class="row">
-    <div class="col-md-12 mx-auto">
+    <div class="col-md-8 mx-auto">
       <div class="col-4 mt-4 mb-4">
         <a href="form.php" class="btn btn-success">Tambah Data</a>
       </div>
